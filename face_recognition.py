@@ -2,14 +2,14 @@ import face_recognition
 import cv2
 import numpy as np
 #動画を指定
-video_capture = cv2.VideoCapture("yui.mp4")
+video_capture = cv2.VideoCapture("name.mp4")
 
 # 人物指定　追加で人を増やせる
-known_image = face_recognition.load_image_file("yui.jpg")
+known_image = face_recognition.load_image_file("name1.jpg")
 biden_encoding = face_recognition.face_encodings(known_image)[0]
 
 # ２つめの人物指定
-unknown_image = face_recognition.load_image_file("ken.jpg")
+unknown_image = face_recognition.load_image_file("name2.jpg")
 unknown_encoding = face_recognition.face_encodings(unknown_image)[0]
 
 #エンコーディングした顔と名前の配列を作成
@@ -18,8 +18,8 @@ known_face_encodings = [
     unknown_encoding
 ]
 known_face_names = [
-    "Yui Aragaki",
-    "Ken Watababe"
+    "name1",
+    "name2"
 ]
 # いくつかの変数を初期化
 face_locations = []
