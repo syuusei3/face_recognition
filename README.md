@@ -1,13 +1,17 @@
 ##face_recognition
 
-日本語でのface_recognitionを使用した、実装例がなかったので
+日本語でのface_recognitionを使用した、
+動画を流すまでの実装例がなかったので
 せっかく実装したので誰かの助けになればと思います。
 
 顔認識の精度としては、99.38%とかなりいい数字が出ています。
 
-大本はこちらの記事になります。
+動画を流す以外のところはこちらの記事を参考にしました。
 
 [Face Recognition](https://github.com/ageitgey/face_recognition/blob/master/README.md)
+
+コード内にコメントアウトで説明はしていますが、
+こちらの記事も参考にしてみて下さい。
 
 ## Description
 
@@ -19,7 +23,11 @@ mp4の動画データから指定した顔を判別するプログラムを実�
 
 
 ## Demo
+長澤まさみさんの顔写真を学習させて、
+動画を流してみたら、しっかりこんな感じでラベル付けしてくれました。
 
+
+![masami](https://imgur.com/JsMLyPQ "サンプル")
 
 
 ## Requirement
@@ -27,15 +35,12 @@ mp4の動画データから指定した顔を判別するプログラムを実�
  ・macOS or Linux
 
 ## Install
+必要なものはこれぐらいです。
 ```
 $pip3 install face_recogniton
 ```
-
-
-## Contribution
-
-## Licence
+##　referannce
 
 
 
-## Author
+[Face Recognition](https://github.com/ageitgey/face_recognition)
