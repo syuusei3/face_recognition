@@ -1,4 +1,4 @@
-##face_recognition
+## face_recognition
 
 日本語でのface_recognitionを使用した、
 動画を流すまでの実装例がなかったので
